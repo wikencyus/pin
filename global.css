@@ -1,0 +1,73 @@
+/*? global clearing */
+*,
+html,
+body {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    font-family: Arial, sans-serif;
+    background-color: #f4f4f4;
+    margin: 0;
+    padding: 0;
+    height: 100vh;
+}
+
+.container {
+    background-color: #f4f4f4;
+    padding: 20px;
+    box-shadow: 2px 5px rgba(0, 0, 0, 0.1);
+    text-align: center;
+}
+
+h1 {
+    color: #333;
+    margin-bottom: 20px;
+}
+
+input {
+    padding: 10px;
+    width: 80%;
+    border-radius: 5px;
+    border: 1px solid #ccc;
+    margin-bottom: 10px;
+}
+
+button {
+    padding: 10px 20px;
+    border-radius: 5px;
+    background-color: #007bff;
+    color: white;
+    border: none;
+    cursor: pointer;
+}
+
+button:hover {
+    background-color: #0056b3;
+}
+
+.main {
+    margin-top: 10px;
+    margin-left: 12px;
+    width: 94%;
+}
+
+.image-result {
+    width: 100%;
+    height: 100vh;
+    border: 3px solid black;
+}
+
+.result {
+    border: 2px solid black;
+    height: 90vh;
+    padding: 10px;
+}
+
+img {
+    width: 100%;
+    height: 100%;
+    display: none;
+}

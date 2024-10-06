@@ -1,0 +1,42 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>✨ Scratch Project ✨</title>
+    <!-- 👇 css code file 👇 -->
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.6.0/css/all.min.css" integrity="sha512-Kc323vGBEqzTmouAECnVceyQqyqdsSiqLQISBL29aUW4U/M7pSPA/gEUZQqv1cwx4OnYxTxve5UMg5GT6L4JJg==" crossorigin="anonymous" referrerpolicy="no-referrer" />
+    <link rel="stylesheet" href="./global.css"/>
+</head>
+<body>
+    
+    <!-- Integrated Blank From Scratch Project -->
+    <div class="container">
+        <h1>
+            <i class="fa-brands fa-square-pinterest fa-beat" style="color: #f60440;"></i>
+            interest
+        </h1>
+        <br>
+        <input 
+            type="text" 
+            name="pinterest" 
+            id="imageUrlInput" 
+            placeholder="Mau cari gambar apa...."
+        />
+        <button ondblclick="fetchAndDisplayImage()">Tampilkan gambar</button>
+    </div>
+    <div class="main">
+      <div class="image-result">
+          <div class="result">
+              <img 
+                  alt="Gambar" 
+                  id="imageDisplay"
+              />
+          </div>
+      </div>
+    </div>
+    <!-- 👇 javascript code file 👇 -->
+    <script src="./index.js"></script>
+</body>
+</html>
